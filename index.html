@@ -5,21 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- my css -->
     <link href="style.css" rel="stylesheet">
+    <!-- my js -->
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <a class="header-brand" href="index.html">Thomas Alton</a>
         <nav>
             <ul>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#Skills" id="btnSkills">Skills</a>
                 </li>
                 <li>
-                    <a href="#">About Me</a>
+                    <a href="#about-me" id="btnAboutMe">About Me</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
@@ -39,20 +42,71 @@
                 </h1>
             </div>
         </section>
-        <section class="index-banner2">
-            <div class="section-bgImage2"></div>
+        <section class="index-banner2" id="about-me">
+            <div class="vertical-top" id="Skills">
+                <h2>
+                    Skills
+                </h2>
+                <ul class="ib2-skill-list">
+                    <li>
+                        <div class="ib2-i1">
+                            <p>
+                                C++
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i2">
+                            <p>
+                                C#
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i3">
+                            <p>
+                                HTML/CSS
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i4">
+                            <p>
+                                SQL
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i5">
+                            <p>
+                                GLSL
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i6">
+                            <p>
+                                Elixir
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="index-banner3">
+            <div class="section-bgImage3"></div>
         </section>
     </main>
     <footer>
         <ul class="footer-links-main">
             <li>
-                <a href="#">Home</a>
+                <a href="#Home" id="btnHome">Home</a>
             </li>
             <li>
                 <a href="#">Cases</a>
             </li>
             <li>
-                <a href="#">Portfolio</a>
+                <a href="#Skills" id="btnSkills">Skills</a>
             </li>
             <li>
                 <a href="#">About Me</a>
