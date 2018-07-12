@@ -2,72 +2,123 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-
-  <!-- my css -->
-  <link href="stylesheet.css" rel="stylesheet">
-
-  <title>A page about dinosaurs!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- my css -->
+    <link href="style.css" rel="stylesheet">
+    <!-- my js -->
+    <script src="script.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
-  <div class="col-md-6 offset-md-3 pad">
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 offset-md-3">
-            <h1 class="text-center">I like dinosaurs!</h1>
-          </div>
-        </div>
-        <div class="card-columns">
-          <div class="col-12">
-            <div class="card card-size">
-              <img class="card-img-top img-size" src="https://i5.walmartimages.com/asr/c9e3d714-d4cd-4c88-b494-ad82fc85ff53_1.097bd9f5c5d53ec968eb2806bdf36f40.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF">
-              <div class="card-body">
-                <h5 class="card-title">
-                  This is a Dinosaur
-                </h5>
-                <p class="card-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur at quis, hic maxime iusto aliquid dolorem excepturi ab.
-                  Necessitatibus, aliquam!
-                </p>
-              </div>
+    <header id="header">
+        <a class="header-brand" href="index.html">Thomas Alton</a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Skills" id="btnSkills">Skills</a>
+                </li>
+                <li>
+                    <a href="#about-me" id="btnAboutMe">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="index-banner">
+            <div class="section-bgImage"></div>
+            <div class="vertical-center">
+                <h2>
+                    Student / Hobbyist Web Developer
+                </h2>
+                <h1>
+                    Studying C/C++ and C# in Games Development
+                </h1>
             </div>
-          </div>
-          <div class="col-12">
-              <div class="card card-size">
-                <img class="card-img-top img-size" src="https://i5.walmartimages.com/asr/c9e3d714-d4cd-4c88-b494-ad82fc85ff53_1.097bd9f5c5d53ec968eb2806bdf36f40.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF">
-                <div class="card-body">
-                  <h5 class="card-title">
-                    This is also Dinosaur
-                  </h5>
-                  <p class="card-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur at quis, hic maxime iusto aliquid dolorem excepturi ab.
-                    Necessitatibus, aliquam!
-                  </p>
-                </div>
-              </div>
+        </section>
+        <section class="index-banner2" id="about-me">
+            <div class="vertical-top" id="Skills">
+                <h2>
+                    Skills
+                </h2>
+                <ul class="ib2-skill-list">
+                    <li>
+                        <div class="ib2-i1">
+                            <p>
+                                C++
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i2">
+                            <p>
+                                C#
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i3">
+                            <p>
+                                HTML/CSS
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i4">
+                            <p>
+                                SQL
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i5">
+                            <p>
+                                GLSL
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ib2-i6">
+                            <p>
+                                Elixir
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="col-12">
-                <div class="card card-size">
-                  <img class="card-img-top img-size" src="https://i5.walmartimages.com/asr/c9e3d714-d4cd-4c88-b494-ad82fc85ff53_1.097bd9f5c5d53ec968eb2806bdf36f40.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      This might be Dinosaur
-                    </h5>
-                    <p class="card-text">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur at quis, hic maxime iusto aliquid dolorem excepturi ab.
-                      Necessitatibus, aliquam!
-                    </p>
-                  </div>
-                </div>
-              </div>
+        </section>
+        <section class="index-banner3">
+            <div class="section-bgImage3"></div>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer-links-main">
+            <li>
+                <a href="#Home" id="btnHome">Home</a>
+            </li>
+            <li>
+                <a href="#">Cases</a>
+            </li>
+            <li>
+                <a href="#Skills" id="btnSkills">Skills</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <div class="footer-sm">
+            <a href="https://github.com/TAlton">
+                <img src="res/gitIcon.png" alt="github icon">
+            </a>
         </div>
       </div>
     </div>
